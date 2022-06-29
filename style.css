@@ -1,0 +1,51 @@
+body{
+    background-color: whitesmoke;
+}
+::placeholder{
+    color: black;
+}
+.calc{
+    width: 400px;
+    height: 550px;
+    margin:auto auto;
+    padding: auto;
+    background-color: darkgrey;
+    border: 2px black ridge;
+    border-radius: 7px;
+    /*max-width: auto;
+    max-height: auto;
+    min-width: auto;             \\ By Jerin jj
+    min-height: auto;*/
+}
+.screen{
+    width: 95%;
+    height: 90px;
+    margin: 7px;
+    border-radius: 6px;
+    border: 1px white solid;
+    text-align: right;
+    font-size: 30px;
+    pointer-events: none;
+}
+.btn{
+    height: 50px;
+    width: 80px;
+    margin-left: 14px;
+    margin-top: 30px;
+    font-size: x-large;
+    color: #fff;
+    background: dimgray;
+    border: 1px solid dimgray;
+    border-radius: 4px;
+}
+
+.btn:active{
+    height: 50px;
+    width: 80px;
+    margin-left: 14px;
+    margin-top: 30px;
+    font-size: x-large;
+    text-shadow: 0px 0px 25px #fff;
+    border: #fff 2px solid;
+    border-radius: 4px;
+}
